@@ -9,14 +9,13 @@ const commandRouter = (command: string, additionalArguments: string[]) => {
       break;
 
     default:
-      context.setStrategy(new PairSumFinderStrategy());
-      break;
+      console.error("No valid command has been sent");
+      return;
   }
 
   try {
     const result = context.execute(additionalArguments);
     console.info(result);
-    process.stdout;
   } catch (error: unknown) {
     let errorMessage = error;
     if (error instanceof Error) {
