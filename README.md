@@ -1,6 +1,6 @@
 # Prerequisites
 
-- Node must be installed in the machine. At least Node 14 version.
+- Node. Version 14 of Node is the minimum required
 
 # Instructions to run the project
 
@@ -13,7 +13,7 @@
 
 Big O notation describes the complexity of your code using algebraic terms. In summary, it is the language we use for talking about how long an algorithm takes to run (time complexity) or how much memory is used by an algorithm (space complexity). Big-O notation can express the best, worst, and average-case running time of an algorithm
 
-![Alt text](big-o-cheatsheet.png)
+![Alt text](./big-o-cheatsheet.jpeg)
 
 ## O(n²) -> Quadratic time
 
@@ -27,7 +27,7 @@ Selection Sort
 
 ## PairSumFinder algorithm challenge
 
-- According to the challenge accepetence criterio. The PairSumFinder algorithm "efficient" is defined as be faster than O(n^2), and "correct" as returning the correct results for all possible inputs.
+- According to the challenge accepetence criteria. The PairSumFinder algorithm "efficient" is defined as be faster than O(n^2), and "correct" as returning the correct results for all possible inputs.
 
 - PairSumFinder: To achieve a efficient strategy that be faster than O(n^2), We can use an accomulator and Set data structure mix approach that enables us to only perform a single for-n-iteration:
 
