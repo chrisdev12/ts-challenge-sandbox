@@ -3,7 +3,7 @@ export type PairFounds = Array<[number, number]>;
 /**
  * @param numbers Array of numbers that will be traversed to find the pairs of numbers that added together give the target sum.
  * @param targetSum desired number that will be used as the sum target
- * @returns An Array of [number, number]
+ * @returns All the pair of numbers that sum the targetSum received: An Array of [number, number]
  */
 export const pairSumFinder = (
   numbers: number[],
@@ -13,10 +13,10 @@ export const pairSumFinder = (
   const numbersTraversed = new Set();
 
   for (const num of numbers) {
-    const expectedValToGetTarget = targetSum - num;
+    const differenceToEqualTarget = targetSum - num;
 
-    if (numbersTraversed.has(expectedValToGetTarget)) {
-      pairFounds.push([expectedValToGetTarget, num]);
+    if (numbersTraversed.has(differenceToEqualTarget)) {
+      pairFounds.push([differenceToEqualTarget, num]);
     }
     numbersTraversed.add(num);
   }
