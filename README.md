@@ -16,4 +16,5 @@ Selection Sort
 
 ## PairSumFinder algorithm
 
-- We define the PairSumFinder algirhtm "efficient" as faster than O(n^2) and "correct" as returning the correct results for all possible inputs.
+- We define the PairSumFinder algirhtm "efficient" as faster than O(n^2) and
+  "correct" as returning the correct results for all possible inputs.
