@@ -7,7 +7,8 @@
     "test": "jest",
     "format": "prettier \"./src/**/*.{ts}\" --write",
     "lint": "eslint \"./src/**/*.ts\" --fix",
-    "build": "tsc --project ./"
+    "build": "tsc --project ./",
+    "ts-node": "node --experimental-specifier-resolution=node --loader ts-node/esm"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "@types/jest": "^29.5.4",
-    "jest": "^29.6.4"
-  }
+    "jest": "^29.6.,4"
+  },
+  "type": "module"
 }
