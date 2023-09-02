@@ -14,7 +14,6 @@ Bubble Sort
 Insertion Sort
 Selection Sort
 
-## PairSumFinder algorithm
+## PairSumFinder algorithm challenge
 
-- We define the PairSumFinder algirhtm "efficient" as faster than O(n^2) and
-  "correct" as returning the correct results for all possible inputs.
+- According to the challenge accepetence criterio. The PairSumFinder algorithm "efficient" is defined as be faster than O(n^2), and "correct" as returning the correct results for all possible inputs.
