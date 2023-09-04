@@ -17,9 +17,10 @@ describe("PairSumFinder Algorithms tests", () => {
   it("PairSumFinder returns all the expected pair of integers", () => {
     //Act
     const result = pairSumFinder(input, targetSum);
-    const resultAsStringArray = result.map((r) => r.toString());
 
     //Assert
+    const resultAsStringArray = result.map((r) => r.toString());
+
     let allExpectedValuesPresent = true;
     expectedValues.forEach((pair) => {
       const isPresent = resultAsStringArray.includes(pair.toString());
